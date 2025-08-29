@@ -1,14 +1,3 @@
-# Importações necessárias
-import mysql.connector  # Para conexão com MySQL (instale com pip install mysql-connector-python)
-from fpdf import FPDF   # Para gerar PDF (instale com pip install fpdf)
-import pywhatkit        # Para envio via WhatsApp (instale com pip install pywhatkit)
-import os
-import datetime
-
-# Linha de comando para anexar/vincular ao banco de dados (exemplo para teste via terminal)
-# Rode isso no terminal para verificar conexão: mysql -h HOST -u USER -pPASSWORD DATABASE
-# Em Python, a conexão é feita abaixo. Para automação, você pode usar subprocess para chamar comandos externos, mas aqui é via código.
-
 # Detalhes de conexão com o banco de dados (EDITAR AQUI com seus dados reais)
 DB_HOST = ''      # EDITAR AQUI: ex: 'localhost' ou 'seu-host.com'
 DB_USER = ''      # EDITAR AQUI: ex: 'root' ou seu usuário
